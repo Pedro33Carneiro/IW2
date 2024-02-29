@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora Do Pedrão</h1>
+    Digite o primeiro numero:
+    <input id="numero1" name="numero1" value="" type="text">
+    <button id="botao" onclick="peganumero1()">Clique</button>
+
+
+    Digite o segundo numero:
+    <input id="numero2" name="numero2" value="" type="text">
+    <button id="botao" onclick="peganumero2()">Clique</button>
+
+
+    <h2>Escolha a operção</h2>
+    <button id="Adição" onclick="soma()">Adição</button>
+    <button id="Subtração" onclick="sub()">Subtração</button>
+    <button id="Multiplicação" onclick="mult()">Multiplicação</button>
+    <button id="Divisão" onclick="div()">Divisão</button>
+    <button id="Limpar" onclick="limp()">Limpar</button>
+
+    <h2 id="result">Resultado</h2>
+
+    <script src="javascript/executa.js"></script>
+</body>
+
+</html>
